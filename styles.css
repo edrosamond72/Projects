@@ -1,0 +1,57 @@
+h1,p{
+  text-align: center;
+  font-family: Calibri;
+}
+input{
+  width: 100%;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+  background: #3CB371;
+  border: none;
+  height: 2rem;
+  font-size: 16px
+}
+form{
+  margin: 0 auto;
+  font-family: Calibri;
+  padding-bottom: 1rem;
+  }
+.inline{
+  align-items: center;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  width: auto;
+  margin: none;
+}
+label{
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  display: block;
+}
+fieldset{
+  border: none;
+}
+body{
+  background: #8FBC8F;
+}
+textarea{
+  display: block;
+  width: 90%;
+  height: 3rem;
+  background-color: #3CB371;
+  margin: 0 auto;
+}
+::placeholder{
+  color: #FFFFF0;
+}
+input[type="submit"]{
+  display: block;
+  width: 60%;
+  margin: 1em auto 1em auto;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-family: Calibri;
+  background-color: #FFFFF0;
+  border-color: gray;
+  width-min: 400px;
+}

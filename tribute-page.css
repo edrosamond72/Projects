@@ -1,0 +1,21 @@
+h1{
+    font-family: Cinzel, Sans-serif;
+    font-weight: Bold;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    }
+  p{
+    font-family: Calibri, Sans-serif;
+  }
+  img{
+    display: flex;
+    justify-content: center;
+  }
+  figcaption{
+    text-align: center;
+    font-family: Calibri;
+  }
+  

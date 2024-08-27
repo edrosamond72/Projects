@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html en>
+<head><link rel="stylesheet" href="styles.css">
+<title>Survey Form</title></head>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please complete this short survey to help me get to know you better</p>
+  <form id="survey-form">
+ <fieldset>
+  <label id="name-label">Please Tell me your name <input required id="name" type="text" placeholder="Enter your name"></label>
+  <label id="email-label">What's your email address? <input required id="email" type="email" placeholder="youremail@email.com"></label>
+<label id="number-label">How old are you?  <input id="number" type="number" min="12" max="120" placeholder="age"></label>
+  </fieldset>
+<fieldset>
+ <label for="dropdown"><b>Why are you taking this course?</b> <select id="dropdown">
+    <option>Please choose one</option>
+    <option>Career Advancement</option>
+    <option>Skill Development</option>
+    <option>Personal Interest</option>
+    <option>Career Change</option></select>
+<legend><b>How would you describe your knowledge prior to taking this course?</b></legend> 
+<label for="none"><input class="inline" id="none" type="radio" name="prior-knowledge" value="none"> No prior knowedge</label>
+<label for="beginner"><input class="inline" id="beginner" type="radio" name="prior-knowledge" value="beginner"> Beginner</label>
+<label for="intermediate"><input class="inline" id="intermediate" type="radio" name="prior-knowledge" value="intermediate"> Intermediate</label>
+<label for="advanced"><input class="inline" id="advanced" type="radio" name="prior-knowledge" value="advanced"> Advanced</label>
+<legend><b>Which career sector do you work in?</b></legend>
+<label for="network"><input class="inline" id="network" type="checkbox" value="network"> Network Administration</label>
+<label for="software"><input class="inline" id="software" type="checkbox" value="software"> Software Development </label>
+<label for="cybersecurity"><input class="inline" id="cybersecurity" type="checkbox" value="cybersecurity"> Cybersecurity</label>
+<label for="datascience"><input class="inline" id="datascience" type="checkbox" value="datascience"> Data Science</label>
+<label for="cloud-engineer"><input class="inline" id="cloud-engineer" type="checkbox" value="cloud-engineer"> Cloud Engineering</label>
+<label for="other"><input class="inline" id="other" type="checkbox" value="other"> Other<input id="other" type="text" placeholder="Please Specify">
+</fieldset>
+<fieldset>
+  <legend>Would you like to share any additional information?</legend>
+  <textarea placeholder="Please share any further information"></textarea>
+  </fieldset>
+<input id="submit" type="submit" value="Submit">
+    </form>
