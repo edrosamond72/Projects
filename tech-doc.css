@@ -1,0 +1,32 @@
+main, nav{
+  font-family: Calibri;
+  
+}
+#navbar li{
+  font-size: 20px;
+  list-style: none;
+  width: 170px;
+  margin: none;
+  padding: none;
+ color: #40ddc0;
+}
+a{
+  text-decoration: none;
+  color: #40ddc0;
+
+}
+a:visited{
+  color: 4340dd;
+}
+a:link{
+  color: e8f603;
+}
+*{
+  background: #AAA
+}
+.main-section li{
+  padding: 2px;
+}
+@media(max-width: 768px){
+  align-content: center;
+}
